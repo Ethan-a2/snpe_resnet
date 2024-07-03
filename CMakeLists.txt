@@ -18,8 +18,8 @@ set(CMAKE_BUILD_TYPE "Release")
 
 if (CMAKE_SYSTEM_NAME MATCHES "Linux")
   set(OpenCV_DIR "/usr/include/opencv4")
-  set(SNPE_INCLUDE_DIR /opt/qcom/aistack/snpe/2.15.4.231013/include/SNPE/)
-  set(SNPE_LIBRARY_DIR /opt/qcom/aistack/snpe/2.15.4.231013/lib/x86_64-linux-clang/)
+  set(SNPE_INCLUDE_DIR /media/code/snpe/qairt/2.22.6.240515/include/SNPE/)
+  set(SNPE_LIBRARY_DIR /media/code/snpe/qairt/2.22.6.240515/lib/x86_64-linux-clang/)
   set(PTHREAD_DL_LIBS pthread dl)
 
 endif()
